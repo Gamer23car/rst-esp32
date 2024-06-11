@@ -20,7 +20,8 @@ Visit => https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 Set Baud to 115200, then click connect (connect to the COM port of the ESP32, ensure it is the **correct** one before going further.)
 ![image](https://github.com/Gamer23car/rst-esp32/assets/93737164/00145e77-0442-452f-bd68-d1ff35269b70)
 
-Short pins GND & RST with a jumper cable **OR** proceed while holding BOOT to then press and release the RST button. 
+Short pins GND & RST with a jumper cable **OR** 
+proceed while holding BOOT to then press and release the RST button (release BOOT after quickpressing RST). 
 ![image (69)](https://github.com/Gamer23car/rst-esp32/assets/93737164/2554d5e4-6806-4ba7-9484-d3afa37c6bc6)
 
 The console should prompt with further instructions on resetting the flash, proceed as instructed. 
