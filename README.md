@@ -20,16 +20,26 @@ Visit => https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 Set Baud to 115200, then click connect (connect to the COM port of the ESP32, ensure it is the **correct** one before going further.)
 ![image](https://github.com/Gamer23car/rst-esp32/assets/93737164/00145e77-0442-452f-bd68-d1ff35269b70)
 
-Short pins GND & RST with a jumper cable **OR** 
+The console will ask you to **hard reset** the device, which can be accomplished by 
+
+Holding BOOT while you short pins GND & RST with a jumper cable **OR** 
 
 Proceed while holding BOOT to then press and release the RST button (release BOOT after quickpressing RST). 
 
 ![image (69)](https://github.com/Gamer23car/rst-esp32/assets/93737164/2554d5e4-6806-4ba7-9484-d3afa37c6bc6)
 
-The console should prompt with further instructions on resetting the flash, proceed as instructed. 
+
+From there, you will have to re-connect the device, which will now show up as a Debug device, this is normal.
+
+![image](https://github.com/Gamer23car/rst-esp32/assets/93737164/fcfac53a-0cd1-4a34-806d-11e4d70daee3)
+
+
+### There will now be an interface that should pop-up with additional information as to Erasing and Re-Programming the flash. 
+#### You can use any .bin designed for your exact ESP32-S3 board (keeping in mind the flash of the device) to Re-Program it. 
+
 ![image (70)](https://github.com/Gamer23car/rst-esp32/assets/93737164/993c4aca-604b-43c1-88b4-ce18cbb6172a)
 
-# Afterwards, feel free to use any .bin designed for the ESP32-S3 and flash it onto the board. 
+**Example Bin(s):**
 
 MicroPython ESP-32 S3 => https://micropython.org/download/ESP32_GENERIC_S3/
 
