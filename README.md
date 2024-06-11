@@ -18,6 +18,7 @@ Visit => https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
 **Do not disconnect the board during any step of this proccess.**
 
 Set Baud to 115200, then click connect (connect to the COM port of the ESP32, ensure it is the **correct** one before going further.)
+
 ![image](https://github.com/Gamer23car/rst-esp32/assets/93737164/00145e77-0442-452f-bd68-d1ff35269b70)
 
 The console will ask you to **hard reset** the device, which can be accomplished by 
